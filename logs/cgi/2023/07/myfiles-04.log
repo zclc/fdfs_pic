@@ -1,0 +1,32 @@
+[2023-07-04 02:32:13]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk][2023-07-04 07:03:13]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk][2023-07-04 07:11:01]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-04 07:11:01]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ed5362c39999d49ea39b588138d3227e",
+    "user": "ad"
+}
+
+[2023-07-04 07:11:01]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="ad" 操作失败
+[2023-07-04 07:11:01]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2023-07-04 07:13:40]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-04 07:13:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ed5362c39999d49ea39b588138d3227e",
+    "user": "ad"
+}
+
+[2023-07-04 07:13:40]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="ad" 操作失败
+[2023-07-04 07:13:40]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2023-07-04 07:14:16]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-04 07:14:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ed5362c39999d49ea39b588138d3227e",
+    "user": "ad"
+}
+
+[2023-07-04 07:14:16]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="ad" 操作失败
+[2023-07-04 07:14:16]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2023-07-04 07:14:50]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-04 07:14:50]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "90892bc63674c0db575d929549eae889",
+    "user": "ee"
+}
+
+[2023-07-04 07:14:50]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="ee" 操作失败
+[2023-07-04 07:14:50]--[src_cgi/myfiles_cgi.c:176]--line = 0

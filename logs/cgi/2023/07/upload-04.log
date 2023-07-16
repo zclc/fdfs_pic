@@ -1,0 +1,6 @@
+[2023-07-04 02:32:13]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2023-07-04 07:03:13]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2023-07-04 07:11:08]--[src_cgi/upload_cgi.c:616]--ad成功上传[ui_titlewidget.h, 大小：4874, md5码：a3d6415e1c7b348d311b447a1bcd794a]到本地
+[2023-07-04 07:11:08]--[src_cgi/upload_cgi.c:346]--[upload FAILED!]
+[2023-07-04 07:13:45]--[src_cgi/upload_cgi.c:616]--ad成功上传[ui_login.h, 大小：25667, md5码：a607f80f4d61f59cc83443b133d5e7d9]到本地
+[2023-07-04 07:13:45]--[src_cgi/upload_cgi.c:346]--[upload FAILED!]
+[2023-07-04 07:14:56]--[src_cgi/upload_cgi.c:616]--ee成功上传[Makefile, 大小：28149, md5码：6954e630792eabb5f742cc8548031c85]到本地
+[2023-07-04 07:14:56]--[src_cgi/upload_cgi.c:346]--[upload FAILED!]

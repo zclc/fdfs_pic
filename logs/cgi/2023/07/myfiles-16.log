@@ -1,0 +1,256 @@
+[2023-07-16 11:58:54]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk][2023-07-16 11:59:27]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 11:59:27]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "2b75e924a4e0373b6ee9852d2cd45ec8",
+    "user": "aaa"
+}
+
+[2023-07-16 11:59:27]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="aaa" 操作失败
+[2023-07-16 11:59:27]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2023-07-16 12:18:07]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:18:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:18:07]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="fff" 操作失败
+[2023-07-16 12:18:07]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2023-07-16 12:20:41]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:20:41]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:20:41]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2023-07-16 12:20:41]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2023-07-16 12:20:41]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:20:41]--[src_cgi/myfiles_cgi.c:548]--user = fff, token = c448213c1a9695393ffdc5045934c8aa, start = 0, count = 1
+[2023-07-16 12:20:41]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'fff' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-07-16 12:20:41]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"fff",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2023-07-16 12:20:33",
+			"filename":	"C++并发编程(中文版) (陈晓伟) (Z-Library).epub",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub",
+			"size":	0,
+			"type":	"epub"
+		}]
+}
+[2023-07-16 12:24:59]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:24:59]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:24:59]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2023-07-16 12:24:59]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2023-07-16 12:24:59]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:24:59]--[src_cgi/myfiles_cgi.c:548]--user = fff, token = c448213c1a9695393ffdc5045934c8aa, start = 0, count = 1
+[2023-07-16 12:24:59]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'fff' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-07-16 12:24:59]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"fff",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2023-07-16 12:20:33",
+			"filename":	"C++并发编程(中文版) (陈晓伟) (Z-Library).epub",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub",
+			"size":	0,
+			"type":	"epub"
+		}]
+}
+[2023-07-16 12:25:06]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:25:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:25:06]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2023-07-16 12:25:06]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2023-07-16 12:25:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:25:06]--[src_cgi/myfiles_cgi.c:548]--user = fff, token = c448213c1a9695393ffdc5045934c8aa, start = 0, count = 1
+[2023-07-16 12:25:06]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'fff' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-07-16 12:25:06]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"fff",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2023-07-16 12:20:33",
+			"filename":	"C++并发编程(中文版) (陈晓伟) (Z-Library).epub",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub",
+			"size":	0,
+			"type":	"epub"
+		}]
+}
+[2023-07-16 12:25:11]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:25:11]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:25:11]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2023-07-16 12:25:11]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2023-07-16 12:25:11]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:25:11]--[src_cgi/myfiles_cgi.c:548]--user = fff, token = c448213c1a9695393ffdc5045934c8aa, start = 0, count = 1
+[2023-07-16 12:25:11]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'fff' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-07-16 12:25:11]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"fff",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2023-07-16 12:20:33",
+			"filename":	"C++并发编程(中文版) (陈晓伟) (Z-Library).epub",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub",
+			"size":	0,
+			"type":	"epub"
+		}]
+}
+[2023-07-16 12:25:27]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:25:27]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:25:27]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2023-07-16 12:25:27]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2023-07-16 12:25:27]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:25:27]--[src_cgi/myfiles_cgi.c:548]--user = fff, token = c448213c1a9695393ffdc5045934c8aa, start = 0, count = 1
+[2023-07-16 12:25:27]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'fff' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-07-16 12:25:27]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"fff",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2023-07-16 12:20:33",
+			"filename":	"C++并发编程(中文版) (陈晓伟) (Z-Library).epub",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub",
+			"size":	0,
+			"type":	"epub"
+		}]
+}
+[2023-07-16 12:25:37]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:25:37]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:25:37]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2023-07-16 12:25:37]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2023-07-16 12:25:37]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:25:37]--[src_cgi/myfiles_cgi.c:548]--user = fff, token = c448213c1a9695393ffdc5045934c8aa, start = 0, count = 1
+[2023-07-16 12:25:37]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'fff' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-07-16 12:25:37]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"fff",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2023-07-16 12:20:33",
+			"filename":	"C++并发编程(中文版) (陈晓伟) (Z-Library).epub",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub",
+			"size":	0,
+			"type":	"epub"
+		}]
+}
+[2023-07-16 12:43:37]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:43:37]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:43:38]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2023-07-16 12:43:38]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2023-07-16 12:43:38]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c448213c1a9695393ffdc5045934c8aa",
+    "user": "fff"
+}
+
+[2023-07-16 12:43:38]--[src_cgi/myfiles_cgi.c:548]--user = fff, token = c448213c1a9695393ffdc5045934c8aa, start = 0, count = 1
+[2023-07-16 12:43:38]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'fff' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-07-16 12:43:38]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"fff",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2023-07-16 12:20:33",
+			"filename":	"C++并发编程(中文版) (陈晓伟) (Z-Library).epub",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub",
+			"size":	0,
+			"type":	"epub"
+		}]
+}
+[2023-07-16 12:46:54]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2023-07-16 12:46:54]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "5ef06f257745722a0f558a4f83353b1f",
+    "user": "fff"
+}
+
+[2023-07-16 12:46:54]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2023-07-16 12:46:54]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2023-07-16 12:46:54]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "5ef06f257745722a0f558a4f83353b1f",
+    "user": "fff"
+}
+
+[2023-07-16 12:46:54]--[src_cgi/myfiles_cgi.c:548]--user = fff, token = 5ef06f257745722a0f558a4f83353b1f, start = 0, count = 1
+[2023-07-16 12:46:54]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'fff' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-07-16 12:46:54]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"fff",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2023-07-16 12:20:33",
+			"filename":	"C++并发编程(中文版) (陈晓伟) (Z-Library).epub",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub",
+			"size":	0,
+			"type":	"epub"
+		}]
+}

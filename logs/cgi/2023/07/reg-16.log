@@ -1,0 +1,20 @@
+[2023-07-16 11:59:25]--[src_cgi/reg_cgi.c:238]--buf = {
+    "email": "123456",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "aaa",
+    "phone": "123456",
+    "userName": "aaa"
+}
+
+[2023-07-16 11:59:25]--[src_cgi/reg_cgi.c:130]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2023-07-16 11:59:25]--[src_cgi/reg_cgi.c:143]--user = aaa, nick_name = aaa, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 123456, email = 123456
+[2023-07-16 12:18:06]--[src_cgi/reg_cgi.c:238]--buf = {
+    "email": "24514334346",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "fff",
+    "phone": "123456",
+    "userName": "fff"
+}
+
+[2023-07-16 12:18:06]--[src_cgi/reg_cgi.c:130]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2023-07-16 12:18:06]--[src_cgi/reg_cgi.c:143]--user = fff, nick_name = fff, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 123456, email = 24514334346

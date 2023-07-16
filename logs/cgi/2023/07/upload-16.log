@@ -1,0 +1,4 @@
+[2023-07-16 11:58:53]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2023-07-16 11:59:31]--[src_cgi/upload_cgi.c:616]--aaa成功上传[C++并发编程(中文版) (陈晓伟) (Z-Library).epub, 大小：0, md5码：d41d8cd98f00b204e9800998ecf8427e]到本地
+[2023-07-16 11:59:31]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub] succ!
+[2023-07-16 11:59:31]--[src_cgi/upload_cgi.c:456]--file url is: http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub
+[2023-07-16 11:59:31]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('d41d8cd98f00b204e9800998ecf8427e', 'group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub', 'http://172.18.0.2:23000/group1/M00/00/00/rBIAAmSz26OAG3pPAAAAAAAAAAA09.epub', '0', 'epub', 1) 文件信息插入成功
