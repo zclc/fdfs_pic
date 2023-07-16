@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MyImage/coolHue-C2FFD8-465EFB.png</file>
+        <file>MyImage/coolHue-C2FFD8-465EFB.svg</file>
+        <file>MyImage/icons8-close.svg</file>
+        <file>MyImage/icons8-cloud-100.png</file>
+        <file>MyImage/icons8-minimize-24.png</file>
+        <file>MyImage/icons8-settings.svg</file>
+        <file>MyImage/VCG211343504018.gif</file>
+    </qresource>
+</RCC>
