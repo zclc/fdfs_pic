@@ -17,18 +17,18 @@ UploadTask * UploadTask::getInstance()
 //追加上传文件到上传列表中
 //参数：path 上传文件路径
 //失败：
-//  -1: 文件大于30m
+//  -1: 文件大于512m
 //  -2：上传的文件是否已经在上传队列中
 //  -3: 打开文件失败
 //  -4: 获取布局失败
 int UploadTask::appendUploadList(QString path)
 {
     qint64 size = QFileInfo( path ).size();
-//    if(size > 30*1024*1024) //最大文件只能是30M
-//    {
-//        cout << "file is to big\n";
-//        return -1;
-//    }
+    if(size > 512*1024*1024) //最大文件只能是512M
+    {
+        cout << "file is to big\n";
+        return -1;
+    }
 
 
     //遍历查看一下，下载的文件是否已经在上传队列中
