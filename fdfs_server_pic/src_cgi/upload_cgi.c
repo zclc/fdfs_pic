@@ -444,11 +444,14 @@ int make_file_url(char *fileid, char *fdfs_file_url)
 
         //读取storage_web_server服务器的端口
         char storage_web_server_port[20] = {0};
-        get_cfg_value(CFG_PATH, "storage_web_server", "port", storage_web_server_port);
+        char fdfs_nginx_server_ip[64] = {0};
+        char fdfs_nginx_server_port[20] = {20};
+        get_cfg_value(CFG_PATH, "fdfs_nginx_server", "ip", fdfs_nginx_server_ip);
+        get_cfg_value(CFG_PATH, "fdfs_nginx_server", "port", fdfs_nginx_server_port);
         strcat(fdfs_file_url, "http://");
-        strcat(fdfs_file_url, fdfs_file_host_name);
+        strcat(fdfs_file_url, fdfs_nginx_server_ip);
         strcat(fdfs_file_url, ":");
-        strcat(fdfs_file_url, storage_web_server_port);
+        strcat(fdfs_file_url, fdfs_nginx_server_port);
         strcat(fdfs_file_url, "/");
         strcat(fdfs_file_url, fileid);
 
