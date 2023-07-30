@@ -15,19 +15,19 @@
 
 ### 登录注册：
 
-![login](http://47.100.86.209:8080/group1/M00/00/00/rBIAAmTGCy-AKcxhANImGXZTM3Q666.gif)
+![login](imgs/login.gif)
 
 ### 上传文件：
 
-![uplodad](http://47.100.86.209:8080/group1/M00/00/00/rBIAAmTGCCmANfaxAMAnc8GDjNg022.gif)
+![uplodad](imgs/upload.gif)
 
 ### 下载文件：
 
-![download](http://47.100.86.209:8080/group1/M00/00/00/rBIAAmTGCG-AFtp7AXbrKfKkGJI121.gif)
+![download](imgs/download.gif)
 
-### 分享图片
+### 分享图片：
 
-![share](http://47.100.86.209:8080/group1/M00/00/00/rBIAAmTGCwWAdjyGBQeO9XK2YnM283.gif)
+![share](imgs/shared.gif)
 
 
 
