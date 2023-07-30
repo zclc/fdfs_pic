@@ -25,7 +25,7 @@
 
 ![](http://47.100.86.209:8080/group1/M00/00/00/rBIAAmTGCG-AFtp7AXbrKfKkGJI121.gif)
 
-* ### 分享图片
+### 分享图片
 
 ![](http://47.100.86.209:8080/group1/M00/00/00/rBIAAmTGCwWAdjyGBQeO9XK2YnM283.gif)
 
